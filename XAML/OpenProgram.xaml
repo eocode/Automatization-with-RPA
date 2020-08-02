@@ -58,11 +58,7 @@
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,189.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="Text">
-                <Variable.Default>
-                  <Literal x:TypeArguments="x:String">Esto es un texto para mi robot.</Literal>
-                </Variable.Default>
-              </Variable>
+              <Variable x:TypeArguments="x:String" Default="Esto es un texto para mi robot." Name="Text" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
